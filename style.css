@@ -1,0 +1,129 @@
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-9');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue',Arial, sans-serif;
+
+}
+::placeholder{
+    font-size: 16px;
+    color: rgb(165, 159, 159);
+}
+body{
+    background-color: #edf0f5;
+   
+}
+.container{
+    padding: 8% 11%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 2%;
+
+}
+.texts{
+    flex-basis: 45%;
+    /* margin-top: px; */
+    
+}
+.texts img{
+    width: 300px;
+}
+
+.texts p{
+    font-size: 26px;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: -10px;
+
+}
+form{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px 18px;
+    flex-basis: 38%;
+    margin-top: 40px;
+    box-shadow:5px 5px 5px rgba(128, 128, 128, 0.138);
+    margin-right: 60px;
+}
+form input{
+    width: 100%;
+    margin: 7px 0;
+    
+    padding: 20px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgba(210, 204, 204, 0.829);
+}
+#login{
+    width: 100%;
+    background-color:#1877f2;
+    color: white;
+    font-size: 22px;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-weight: 550;
+    transition: 0.2s;
+    cursor: pointer;
+}
+#login:hover{
+    background-color: #166ee1;
+    
+}
+form a{
+    margin-top: 40px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #1877f2;
+    text-align: center;
+}
+form p{
+    text-align: center;
+    margin: 20px 0;
+    border-bottom: 1px solid #1c1e2129;
+    padding-bottom: 20px;
+}
+form p:hover{
+    text-decoration: underline;
+}
+#account{
+    background-color: #42b72a;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin-left: 82px;
+    font-size: 16px;
+    font-weight: 550;
+    font-family:  Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+
+}
+#account:hover{
+    background-color: #36b51c;
+}
+.bottomtxt{
+    display: flex;
+    justify-content: right;
+    
+    
+
+}
+.bottomtxt p{
+margin-right: 250px;
+font-size: 14px;
+}
+.bottomtxt a{
+    text-decoration: none;
+    color: black;
+    font-weight: 550;
+    
+}
+.bottomtxt a:hover{
+    text-decoration: underline;
+}
